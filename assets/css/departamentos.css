@@ -1,0 +1,49 @@
+.out-box{
+display:inline-block;
+width:100%;
+max-width: 250px;
+text-align:center;
+margin:10px;
+-moz-border-radius: 32px;
+-webkit-border-radius: 32px;
+border-radius: 32px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 79);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 79);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+cursor:pointer;
+
+}
+.nomeProjeto{
+	
+
+}
+
+.title{
+
+	color:#111111;
+	display:inline-block;
+	font-weight:bold;
+	font-size:11px;
+	margin:15px 0 0px 0;
+}
+.title-max{
+	text-transform:uppercase;
+	color:#111111;
+	display:inline-block;
+	font-weight:bold;
+	font-size:15px;
+	margin:15px 0 0px 0;
+}
+
+.img{
+	border-radius:15px;
+}
